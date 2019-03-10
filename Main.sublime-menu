@@ -26,21 +26,24 @@
                                 "caption": "Settings - User",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/User/CustomizeMarkdownEditor(OSX).sublime-settings"
+                                    "file": "${packages}/User/CustomizeMarkdownEditor(OSX).sublime-settings",
+                                    "contents": "{\n\t\"name\": \"Typora$0\"\n}\n"
                                 }
                             },
                             {
                                 "caption": "Menu - User",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/User/Main.sublime-menu"
+                                    "file": "${packages}/User/Main.sublime-menu",
+                                    "contents": "[\n\t{\n\t\t\"id\": \"tools\",\n\t\t\"children\":\n\t\t[\n\t\t\t{\n\t\t\t\t\"caption\": \"Markdown: Open with Typora.app$0 ...\",\n\t\t\t\t\"command\": \"open_markdown_file\"\n\t\t\t}\n\t\t]\n\t},\n]\n"
                                 }
                             },
-                            {
+                            { 
                                 "caption": "Commands - User",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/User/Main.sublime-commands"
+                                    "file": "${packages}/User/Main.sublime-commands",
+                                    "contents": "[\n\t{\n\t\t\"caption\": \"Markdown: Open with Typora.app$0\",\n\t\t\"command\": \"open_markdown_file\"\n\t}\n]\n"
                                 }
                             },
                         ]
