@@ -15,8 +15,8 @@ Adds a handy command and menu item to open your current file with the customize 
 ## Setting
 the example markdown editor of `Typora.app`:
 
-### Create `User/Main.sublime-menu`
-```
+### Create/Merge `User/Main.sublime-menu`
+```json
 [
     {
         "id": "tools",
@@ -32,8 +32,8 @@ the example markdown editor of `Typora.app`:
 ```
 > Note: Don't modify the `command` section
 
-### Create `User/Main.sublime-commands`
-```
+### Create/Merge `User/Main.sublime-commands`
+```json
 [
     {
         "caption": "Markdown: Open with Typora.app ...",
@@ -44,7 +44,7 @@ the example markdown editor of `Typora.app`:
 > Note: Don't modify the `command` section
 
 ### Create `User/CustomizeMarkdownEditor(OSX).sublime-settings`
-```
+```json
 {
     "name": "Typora"
 }
