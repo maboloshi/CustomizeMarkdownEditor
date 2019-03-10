@@ -1,11 +1,51 @@
 [
     {
-        "id": "tools",
-        "children":
-        [
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children": [
             {
-                "caption": "Open with Typora",
-                "command": "typora"
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "MarkdownEditor",
+                        "children": [
+                            {
+                                "caption": "Introduction",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Customize Markdown Editor (OSX)/Readme.md"
+                                }
+                            },
+                            {
+                             "caption": "-"
+                            },
+                            {
+                                "caption": "Settings - User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Customize Markdown Editor (OSX).sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Menu - User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Main.sublime-menu"
+                                }
+                            },
+                            {
+                                "caption": "Commands - User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Main.sublime-commands"
+                                }
+                            },
+                        ]
+                    }
+                ]
             }
         ]
     }

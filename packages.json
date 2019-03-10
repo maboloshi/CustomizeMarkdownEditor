@@ -2,16 +2,16 @@
     "schema_version": "1.1",
     "packages": [
         {
-            "name": "Typora.app Markdown",
-            "author": "Asoul",
-            "description": "Open your current file with the Typora.app markdown editor",
-            "homepage": "https://github.com/Asoul/typora-markdown-sublime",
-            "last_modified": "2015-12-20 18:23:09",
+            "name": "Customize Markdown Editor (OSX)",
+            "author": "maboloshi",
+            "description": "Open your current file with the customize markdown editor",
+            "homepage": "https://github.com/maboloshi/customize-markdown-sublime",
+            "last_modified": "2019-03-10 12:33:01",
             "platforms": {
                 "osx": [
                     {
                         "version": "1.0.0",
-                        "url": "https://github.com/Asoul/typora-markdown-sublime"
+                        "url": "https://github.com/maboloshi/customize-markdown-sublime"
                     }
                 ]
             }
