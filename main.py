@@ -10,7 +10,7 @@ class OpenMarkdownFileCommand(sublime_plugin.WindowCommand):
         if filename is None:
             return
 
-        app_name = sublime.load_settings('Customize Markdown Editor (OSX).sublime-settings').get('name', None)
+        app_name = sublime.load_settings('CustomizeMarkdownEditor(OSX).sublime-settings').get('name', None)
 
         proc_env = os.environ.copy()
         encoding = sys.getfilesystemencoding()

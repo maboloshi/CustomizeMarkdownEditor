@@ -7,10 +7,10 @@ Adds a handy command and menu item to open your current file with the customize 
 **Package Installer**
 
 * Install [Sublime Package Control](https://packagecontrol.io/)
-* Select "Package Control: Add Repository" from the Command Palette (`super+shift+p`)
-* Input "https://github.com/maboloshi/customize-markdown-sublime"
-* Select "Package Control: Install Package" from the Command Palette (`super+shift+p`)
-* Find "Customize Markdown Editor (OSX)" and select
+* Select `Package Control: Add Repository` from the Command Palette (`super+shift+p`)
+* Input `https://github.com/maboloshi/CustomizeMarkdownEditor`
+* Select `Package Control: Install Package` from the Command Palette (`super+shift+p`)
+* Find `CustomizeMarkdownEditor` and select
 
 ## Setting
 the example markdown editor of `Typora.app`:
@@ -43,7 +43,7 @@ the example markdown editor of `Typora.app`:
 ```
 > Note: Don't modify the `command` section
 
-### Create `User/Customize Markdown Editor (OSX).sublime-settings`
+### Create `User/CustomizeMarkdownEditor(OSX).sublime-settings`
 ```
 {
     "name": "Typora"

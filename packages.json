@@ -5,13 +5,13 @@
             "name": "Customize Markdown Editor (OSX)",
             "author": "maboloshi",
             "description": "Open your current file with the customize markdown editor",
-            "homepage": "https://github.com/maboloshi/customize-markdown-sublime",
+            "homepage": "https://github.com/maboloshi/CustomizeMarkdownEditor",
             "last_modified": "2019-03-10 12:33:01",
             "platforms": {
                 "osx": [
                     {
                         "version": "1.0.0",
-                        "url": "https://github.com/maboloshi/customize-markdown-sublime"
+                        "url": "https://github.com/maboloshi/CustomizeMarkdownEditor"
                     }
                 ]
             }

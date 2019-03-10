@@ -16,7 +16,7 @@
                                 "caption": "Introduction",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Customize Markdown Editor (OSX)/Readme.md"
+                                    "file": "${packages}/CustomizeMarkdownEditor/Readme.md"
                                 }
                             },
                             {
@@ -26,7 +26,7 @@
                                 "caption": "Settings - User",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/User/Customize Markdown Editor (OSX).sublime-settings"
+                                    "file": "${packages}/User/CustomizeMarkdownEditor(OSX).sublime-settings"
                                 }
                             },
                             {
